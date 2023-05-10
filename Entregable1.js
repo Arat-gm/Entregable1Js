@@ -45,7 +45,7 @@ function calcularImpuestos() {
   } else if (impuestoPeso > 0) {
     console.log(`Deberá pagar una penalidad del ${impuestoPeso * 100}% por exceder los 1000 gramos`);
   }
-
+ 
   let impuestosAPagar = impuestoUnidades + impuestoPeso;
 
   let ivaAPagar = ivaDelValorDeclarado(valorDeclarado);
